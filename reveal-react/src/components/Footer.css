@@ -1,0 +1,102 @@
+.footer-section {
+  width: 100vw;
+  min-width: 100vw;
+  background: #091e5b; /* Ajustado para coincidir con la imagen */
+  color: #ffffff;
+  padding: 3.5rem 0 1.2rem 0;
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif; /* Cambiado a Roboto para coincidir con la imagen */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-sizing: border-box;
+}
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+.footer-logo {
+  font-size: 2.5rem; /* Aumentado ligeramente */
+  font-weight: 700; /* Ajustado */
+  letter-spacing: -1px;
+  margin-bottom: 1.1rem;
+  color: #ffffff; /* Asegurando que sea blanco */
+}
+.footer-phrase {
+  font-size: 1.05rem;
+  font-style: italic;
+  color: #ffffff; /* Cambiado a blanco para mayor visibilidad */
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
+.footer-socials {
+  display: flex;
+  gap: 1.1rem;
+  margin-bottom: 2.2rem;
+  justify-content: center;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #40e0d0; /* Cambiado a turquesa para coincidir con la imagen */
+  transition: background 0.2s, transform 0.2s;
+  font-size: 1.2rem;
+}
+.footer-icon:hover {
+  background: #30c0b0; /* Color hover más oscuro */
+  transform: scale(1.08);
+}
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background: #2a3a6a; /* Ajustado para ser más visible */
+  margin: 1.5rem 0 1.2rem 0;
+}
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+.footer-copy {
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+  color: #ffffff; /* Asegurando que sea blanco */
+}
+.footer-madeby {
+  font-size: 0.97rem;
+  color: #ffffff; /* Cambiado a blanco para mayor visibilidad */
+}
+.footer-madeby a {
+  color: #40e0d0; /* Cambiado a turquesa para coincidir con la imagen */
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer-madeby a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .footer-logo {
+    font-size: 1.4rem;
+  }
+  .footer-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .footer-phrase {
+    font-size: 0.95rem;
+  }
+}

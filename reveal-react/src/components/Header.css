@@ -1,0 +1,139 @@
+.header {
+  width: 100%;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.topbar {
+  background: #fff;
+  color: #6c757d;
+  font-size: 0.93rem;
+  padding: 8px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+}
+
+.email-text, .phone-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-info i {
+  color: #18d26e;
+  font-size: 1rem;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.social-links a {
+  color: #6c757d;
+  transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.social-links a:hover {
+  color: #18d26e;
+}
+
+.navbar {
+  padding: 0;
+  background: #fff;
+  min-height: 32px;
+  margin-top: -10px; /* Cambiado de -80px a -40px para bajar el navbar */
+}
+
+.logo {
+  text-decoration: none;
+  color: #0c2e8a;
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.navmenu ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  padding-top: 0;
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+}
+
+.navmenu a {
+  text-decoration: none;
+  color: #4f4f50;
+  font-weight: 500;
+  transition: color 0.2s;
+  font-size: 0.98rem;
+  padding: 0.1rem 0.3rem 0.25rem 0.3rem;
+  border-bottom: 2.5px solid transparent;
+  margin-top: 0;
+  display: inline-block;
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+}
+
+.navmenu a.active,
+.navmenu a:hover {
+  color: #2fa3b7;
+  border-bottom: 2.5px solid #2fa3b7;
+  padding-bottom: 2px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  
+  .navmenu {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .navmenu ul {
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+  
+  .topbar .container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

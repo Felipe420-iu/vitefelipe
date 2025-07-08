@@ -1,0 +1,27 @@
+/* Limpio el archivo para los estilos personalizados de Reveal */
+
+html, body, #root {
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif; /* Cambiado a Roboto */
+  background: #fff;
+  color: #222;
+}
+
+/* Estilos globales de la plantilla Reveal */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+  color: #0c2e8a;
+}
+
+p {
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+  color: #555;
+}
+
+/* Aquí irán los estilos globales de la plantilla Reveal */
