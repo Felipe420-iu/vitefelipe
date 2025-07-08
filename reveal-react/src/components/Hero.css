@@ -23,7 +23,7 @@
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(255,255,255,0.25); /* Reducido de 0.55 a 0.25 para menos difuminado */
+  background: rgba(255,255,255,0); /* Eliminado completamente el overlay */
   z-index: 1;
 }
 .hero-center {
@@ -139,7 +139,7 @@
 .hero-container {
   text-align: center;
   padding: 70px 0 60px 0;
-  background: url('../assets/hero-carousel-1.jpg') center/cover no-repeat;
+  background: none; /* Eliminada la imagen de fondo */
   min-height: 500px;
   display: flex;
   flex-direction: column;
