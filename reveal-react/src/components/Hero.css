@@ -23,7 +23,7 @@
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(255,255,255,0); /* Eliminado completamente el overlay */
+  background: rgba(255,255,255,0.55); /* Cambiado a un overlay blanco claro */
   z-index: 1;
 }
 .hero-center {
@@ -100,7 +100,7 @@
   pointer-events: none;
 }
 .carousel-arrow {
-  background: rgba(76,224,179,0.55); /* Cambiado a verde turquesa para coincidir con la primera imagen */
+  background: rgba(76,224,179,0.80); /* Cambiado a verde turquesa para coincidir con la primera imagen */
   border: none;
   color: #fff;
   font-size: 2.2rem;
@@ -150,7 +150,7 @@
 .hero-container h1 {
   font-size: 4.2rem;
   font-weight: 700;
-  color: #19335c !important;
+  color: #0c2e8a !important;
   margin-bottom: 20px;
   line-height: 1.1;
   background: none;
